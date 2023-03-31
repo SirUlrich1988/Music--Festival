@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock & EDM Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="build/css/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container container-header">
+        <h1>Rock & EDM Festival</h1>
+
+        <nav class="main-nav">
+          <a href="#lineup">Line Up</a>
+          <a href="#galeria">Galeria</a>
+          <a href="#boletos">Boletos</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="video">
+      <div class="overlay">
+        <div class="container container-video">
+          <h2>Rock & EDM Festival</h2>
+          <p>Abril 2023, Cancun, Mexico</p>
+        </div>
+      </div>
+      <video autoplay muted loop>
+        <source src="video/concierto.mp4" type="video/mp4">
+        <source src="video/concierto.ogg" type="video/ogg">
+        <source src="video/concierto.webm" type="video/webm">
+      </video>
+    </div>
+
+    <section class="container about-festival">
+      <div class="img">
+        <picture>
+          <source srcset="build/img/imagen_vocalista.avif" type="image/avif">
+          <source srcset="build/img/imagen_vocalista.webp" type="image/webp">
+          <img loading="lazy" width="200" height="300" src="build/img/imagen_vocalista.jpg" alt="imagen vocalista">
+        </picture>
+      </div>
+      <div class="festival-content">
+        <h2>Rock & Festival</h2>
+        <p class="festival-date">Abril 2023, Cancun, Mexico</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tempore quo quibusdam non est soluta similique qui, nisi eos reprehenderit fuga tenetur ipsam cum perspiciatis sapiente molestias dolorum consequuntur iusto?</p>
+      </div>
+    </section>
+
+    <section id="lineup" class="lineUp">
+      <h3>Line Up</h3>
+
+      <p class="day">Viernes 21</p>
+
+      <div class="container-scenario container">
+
+        <div class="scenario rock bg-amarillo">
+          <p class="name-scenario">Escenario Rock</p>
+
+          <ul class="calendar">
+            <li>
+              24:00 | <span>Tributo a Metallica</span>
+            </li>
+            <li>
+              22:00 | <span>Tributo a Queen</span>
+            </li>
+            <li>
+              20:00 | <span>Tributo a Guns N' Roses</span>
+            </li>
+            <li>
+              19:00 | <span>Tributo a The Police</span>
+            </li>
+            <li>
+              18:00 | <span>Tributo a Radiohead</span>
+            </li>
+            <li>
+              17:00 | <span>Tributo a Scorpions</span>
+            </li>
+          </ul>
+        </div> <!--finaliza scenario-->
+
+        <div class="scenario edm bg-verde">
+          <p class="name-scenario">Escenario EDM</p>
+
+          <ul class="calendar">
+            <li>
+              24:00 | <span>Tributo a Marshmello</span>
+            </li>
+            <li>
+              22:00 | <span>Tributo a Alan Walker</span>
+            </li>
+            <li>
+              20:00 | <span>Tributo a David Guetta</span>
+            </li>
+            <li>
+              19:00 | <span>Tributo a Usher</span>
+            </li>
+            <li>
+              18:00 | <span>Tributo a Avicii</span>
+            </li>
+            <li>
+              17:00 | <span>Tributo a Eric Prydz</span>
+            </li>
+          </ul>
+        </div> <!--finaliza scenario-->
+
+      </div> <!--finaliza container-scenario-->
+
+      <p class="day">Sabado 22</p>
+
+      <div class="container-scenario container">
+
+        <div class="scenario rock bg-verde">
+          <p class="name-scenario">Escenario Rock</p>
+
+          <ul class="calendar">
+            <li>
+              24:00 | <span>Tributo a Linkin Park</span>
+            </li>
+            <li>
+              22:00 | <span>Tributo a RedHot Chilli Peppers</span>
+            </li>
+            <li>
+              20:00 | <span>Tributo a The Killers</span>
+            </li>
+            <li>
+              19:00 | <span>Tributo a Limp Bizkit</span>
+            </li>
+            <li>
+              18:00 | <span>Tributo a P.O.D</span>
+            </li>
+            <li>
+              17:00 | <span>Tributo a System Of The Down</span>
+            </li>
+          </ul>
+        </div> <!--finaliza scenario-->
+
+        <div class="scenario edm bg-amarillo">
+          <p class="name-scenario">Escenario EDM</p>
+
+          <ul class="calendar">
+            <li>
+              24:00 | <span>Tributo a Paul Van Dyk</span>
+            </li>
+            <li>
+              22:00 | <span>Tributo a Armin Van Buuren</span>
+            </li>
+            <li>
+              20:00 | <span>Tributo a Above & Beyond</span>
+            </li>
+            <li>
+              19:00 | <span>Tributo a Ferry Corsten</span>
+            </li>
+            <li>
+              18:00 | <span>Tributo a Ellie Goulding</span>
+            </li>
+            <li>
+              17:00 | <span>Tributo a Vini Vici</span>
+            </li>
+          </ul>
+        </div> <!--finaliza scenario-->
+
+      </div> <!--finaliza container-scenario-->
+
+    </section>
+
+    <section id="galeria" class="galery container">
+      <h3>Galeria</h3>
+
+      <ul class="galery-img"></ul>
+    </section>
+
+    <section id="boletos" class="tickets bg-verde">
+
+      <h3>Boletos</h3>
+
+      <div class="container ticket-container">
+        
+        <div class="basic pass">
+          <p class="name-pass">Pase 1 Dia</p>
+          <header class="header-pass">
+            <p>Incluye</p>
+          </header>
+          <div class="body-pass">
+            <ul>
+              <li>Acceso a Ambos Escenarios</li>
+              <li>Comida y Bebidas</li>
+            </ul>
+          </div>
+          <footer class="footer-pass">
+            <p>$300</p>
+          </footer>
+        </div>
+
+        <div class="premium pass">
+          <p class="name-pass">Pase 2 Dias</p>
+          <header class="header-pass">
+            <p>Incluye</p>
+          </header>
+          <div class="body-pass">
+            <ul>
+              <li>Acceso a Ambos Escenarios</li>
+              <li>Comida y Bebidas</li>
+              <li>Camisa del Evento</li>
+              <li>Acceso VIP</li>
+            </ul>
+          </div>
+          <footer class="footer-pass">
+            <p>$650</p>
+          </footer>
+        </div>
+      </div>
+
+    </section>
+
+    <footer class="site-footer">
+      <p>Rock & EDM Festival. Todos los Derechos Reservados 2023.</p>
+    </footer>
+
+    <script src="build/js/app.js"></script>
+  </body>
+</html>
